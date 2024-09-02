@@ -1,0 +1,11 @@
+prefix=/home/killa1994/Documents/01_Thesis/01_Review/.conda
+exec_prefix=/home/killa1994/Documents/01_Thesis/01_Review/.conda
+libdir=/home/killa1994/Documents/01_Thesis/01_Review/.conda/lib
+includedir=/home/killa1994/Documents/01_Thesis/01_Review/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
